@@ -1,0 +1,22 @@
+{
+    "name": "pb-avelino/tracktik_exercise",
+    "description": "TracTick Exercise",
+    "config": {
+        "bin-dir": "bin/",
+        "platform": {
+            "php": "7.4"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "TrackTik\\": "src"
+        }
+    },
+    "license": "proprietary",
+    "require": {
+        "symfony/console": "^5.2"
+    },
+    "require-dev": {
+        "behat/behat": "^3.8"
+    }
+}

@@ -1,0 +1,10 @@
+#!/usr/bin/env php
+<?php
+require __DIR__ . '/vendor/autoload.php';
+
+use Symfony\Component\Console\Application;
+use TrackTik\Commands\Excercise;
+
+$app  = new Application('TrakTick Exercise', '1.0.0');
+$app->add(new Excercise('tt:exercise'));
+$app->run();
